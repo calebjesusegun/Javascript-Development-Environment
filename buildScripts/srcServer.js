@@ -16,3 +16,7 @@ app.listen(port, function (err) {
     open('http://localhost:' + port);
   }
 });
+
+//Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+// Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
